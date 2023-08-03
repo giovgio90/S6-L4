@@ -1,0 +1,49 @@
+@import "./bootstrap-overraide";
+
+.section1 {
+  background-color: $blue;
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .Title {
+    h1 {
+      color: $white;
+    }
+    p {
+      color: $gray;
+    }
+    .btn-1 {
+      color: white;
+      background-color: $teal;
+      border: none;
+      border-radius: $border-radius-sm;
+    }
+    .btn-2 {
+      background-color: white;
+      border: none;
+      border-radius: $border-radius-sm;
+    }
+  }
+}
+
+.section2 {
+  margin-block: 30px;
+  .info {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    background-color: #f9eedb;
+    border-radius: $border-radius-xl;
+  }
+}
+
+.main {
+  background-color: #f5f4f8;
+  .card {
+    .author {
+      display: flex;
+    }
+  }
+}
